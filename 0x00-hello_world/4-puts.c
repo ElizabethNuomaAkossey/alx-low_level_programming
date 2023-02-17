@@ -1,10 +1,9 @@
-#!/bin/bash
 #include <stdio.h>
 
-\**
-*main-start point
+/**
+*main - Entry point
 *
-*Return: returned 0 value(correct)
+*Return: Always 0 (succss)
 */
 int main(void)
 {
