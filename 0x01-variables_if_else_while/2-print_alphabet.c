@@ -6,7 +6,7 @@
  * Return: Alwasys 0 (Success)
  */
 
-int main(non-void)
+int main(void)
 {
 	char ch;
 
