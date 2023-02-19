@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * main - Prints all single digit numbers in base 10
  * starting from 0, followed by a new line.
@@ -13,6 +15,6 @@ int main(void)
 	{
 		putchar (n);
 	}
-	putchar ("\n");
+	putchar ('\n');
 	return (0);
 }
