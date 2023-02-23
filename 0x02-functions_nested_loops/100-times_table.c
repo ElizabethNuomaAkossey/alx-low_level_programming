@@ -27,6 +27,12 @@ void print_times_table(int n)
 					_putchar(32);
 					_putchar(m + 48);
 				}
+				else if (m <= 99)
+				{
+					_putchar(32);
+					_putchar((m / 10) + 48)
+					_putchar((m % 10) + 48);
+				}
 				else
 				{
 					_putchar(((m / 100) % 10) +  48);
