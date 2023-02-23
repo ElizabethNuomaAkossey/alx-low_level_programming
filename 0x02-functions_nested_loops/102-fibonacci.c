@@ -17,10 +17,10 @@ int main(void)
 	for (a = 0, a < 48; a++;)
 	{
 		fn = n1 + n2;
-		printf(",%ld", fn);
+		printf(", %ld", fn);
 		n1 = n2;
 		n2 = fn;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
