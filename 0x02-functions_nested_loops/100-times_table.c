@@ -19,11 +19,12 @@ void print_times_table(int n)
 			for (b = 1; b <= n; b++)
 			{
 				m = a * b;
-				_putchar(',');
-				_putchar(' ');
+				_putchar(44);
+				_putchar(32);
 				if (m <= 9)
 				{
-					_putchar(' ');
+					_putchar(32);
+					_putchar(32);
 					_putchar(m + 48);
 				}
 				else
